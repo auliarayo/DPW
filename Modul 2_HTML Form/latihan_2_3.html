@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Pendaftaran</title>
+    <link rel="icon" type="img/png" href="gambar/icon.png" sizes="16x16"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div id="header">
+        <h1>Form Pendaftaran Mahasiswa</h1>
+    </div>
+    <div id="main">
+        <div id="content">
+            <form action="proses.php" method="post">
+                <table>
+                    <tr>
+                        <td>Nama Lengkap</td>
+                        <td><input type="text" name="nama"></td>
+                    </tr>
+                    <tr>
+                        <td>Tempat, Tanggal Lahir</td>
+                        <td>
+                            <input type="text" name="tempat">
+                            <select name="tgl">
+                                   <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option><option>13</option><option>14</option><option>15</option><option>16</option><option>17</option><option>18</option><option>19</option><option>20</option><option>21</option><option>22</option><option>23</option><option>24</option><option>25</option><option>26</option><option>27</option><option>28</option><option>29</option><option>30</option><option>31</option>
+                            </select>
+                            <select name="bln">
+                                <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option>
+                            </select>
+                            <select name="thn">
+                                <option>1989</option><option>1990</option><option>1991</option><option>1992</option><option>1993</option><option>1994</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Agama</td>
+                        <td>
+                            <select name="agama">
+                                <option>Islam</option><option>Kristen</option><option>Katolik</option><option>Hindu</option><option>Budha</option><option>Konghucu</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Jenis Kelamin</td>
+                        <td>
+                            <input type="radio" name="jk" id="Laki-laki" value="Laki-laki"><label for="Laki-laki">Laki-laki</label><br>
+                            <input type="radio" name="jk" id="Perempuan" value="Perempuan"><label for="Perempuan">Perempuan</label><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>No. Ijazah SMA/MA</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="myfile">Foto (Ukuran File max 20 KB)</label></td>
+                        <td><input type="file" id="myfile" name="myfile"><br>
+                        <input type="hidden" id="custId" name="custId" value="3487"><br></td>
+                    </tr>
+                    <tr>
+                        <td>Nama Ayah</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Nama Ibu</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Alamat Rumah</td>
+                        <td><textarea rows="4"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>No. Telp</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Nama Sekolah Asal</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Alamat Sekolah Asal</td>
+                        <td><textarea rows="4"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Jurusan Dipilih</td>
+                        <td>
+                            <select>
+                                <option>Komputerisasi Akuntansi</option><option>Administrasi Bisnis</option><option>Teknik Komputer Kontrol</option>option>Teknik Listrik</option><option>Mesin Otomotif</option><option>Perkeretaapian</option><option>Teknologi Informasi</option><option>Akuntansi</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Tahu informasi ini dari</td>
+                        <td>
+                            <input type="checkbox" id="id1" value="Koran">
+                            <label for="id1">Koran</label>
+                            <input type="checkbox" id="id2" value="Website">
+                            <label for="id2">Website</label>
+                            <input type="checkbox" id="id3" value="Televisi">
+                            <label for="id3">Televisi</label>
+                            <input type="checkbox" id="id3" value="Radio">
+                            <label for="id3">Radio</label>
+                            <input type="checkbox" id="id3" value="Teman">
+                            <label for="id3">Teman</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" value="Daftar">
+                            <input type="reset" value="Reset">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+    </div>
+    <div id="footer">
+        <p><i>copyright@aulliarayadecember_253307036</i></p>
+    </div>
+</body>
+</html>
