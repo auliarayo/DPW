@@ -89,18 +89,22 @@
                 <li><a href="pendaftaran.html">Pendaftaran</a></li>
             </nav>
             <article>
-                <h1 style="text-align: center;">Objek Wisata di Pacitan</h1>
-                <div id="content">
-                    <p style="text-align: justify;">
-                        Pacitan adalah kabupaten di Jawa Timur yang menyimpan potensi alam yang luar biasa mempesona.
-                        Obyek wisata di Pacitan didominasi oleh wisata alam yang memikat, seperti Pantai Klayar yang terkenal dengan fenomena seruling samudra dan pasir putihnya, serta Goa Gong yang terkenal dengan keindahan stalaktit dan stalagmitnya.
-                        Selain wisata alam, Pacitan juga memiliki potensi wisata budaya yang kaya, seperti festival budaya dan seni lokal yang turut meningkatkan daya tarik wisatawan.
-                    </p>
-                    <p>
-                        <b>Kesimpulan Hasil Uji coba:</b><br>
-                        Struktur semantik HTML membantu meningkatkan keterbacaan kode, SEO, dan struktur dokumen menjadi lebih terorganisir dibandingkan HTML versi lama.
-                    </p>
-                </div>
+                <h1 style="text-align: center;">Form Pendaftaran</h1>
+                <form>
+                <label>No. Telepon:</label><br>
+                <input type="tel" pattern="[0-9]{4}-[0-9]{6}" placeholder="0812-123456" required><br><br>
+                <label>Email:</label><br>
+                <input type="email" required><br><br>
+                <label>Tanggal Lahir:</label><br>
+                <input type="date" min="1980-01-01" max="2025-12-31" required><br><br>
+                <label>Tingkat Kepentingan (0-10):</label><br>
+                <input type="range" min="0" max="10"><br><br>
+                <label>Tanggal Kunjungan:</label><br>
+                <input type="date" min="2026-04-13" required><br><br>
+                <label>Jam (17.00 - 21.00):</label><br>
+                <input type="time" min="17:00" max="21:00" required><br><br>
+                <input type="submit" value="Daftar">
+            </form>
             </article>
         </section>
         <footer>

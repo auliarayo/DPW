@@ -91,14 +91,30 @@
             <article>
                 <h1 style="text-align: center;">Objek Wisata di Pacitan</h1>
                 <div id="content">
-                    <p style="text-align: justify;">
-                        Pacitan adalah kabupaten di Jawa Timur yang menyimpan potensi alam yang luar biasa mempesona.
-                        Obyek wisata di Pacitan didominasi oleh wisata alam yang memikat, seperti Pantai Klayar yang terkenal dengan fenomena seruling samudra dan pasir putihnya, serta Goa Gong yang terkenal dengan keindahan stalaktit dan stalagmitnya.
-                        Selain wisata alam, Pacitan juga memiliki potensi wisata budaya yang kaya, seperti festival budaya dan seni lokal yang turut meningkatkan daya tarik wisatawan.
-                    </p>
+                    <h1>Video HTML5</h1>
+
+            <figure>
+                <figcaption><strong>Festival Rawat Jagat Pacitan</strong></figcaption>
+                <video controls autoplay muted>
+                    <source src="img/Festival Rawat Jagat.mp4" type="video/mp4">
+                    Browser tidak mendukung video.
+                </video>
+            </figure>
+
+            <!--Iframe YouTube -->
+            <figure>
+                <figcaption><strong>Video YouTube Embed</strong></figcaption>
+                <iframe width="auto" height="200" src="https://www.youtube.com/embed/nZjcdYKSrf8?si=_TZDIwg9QptLPMlU"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </figure>
                     <p>
                         <b>Kesimpulan Hasil Uji coba:</b><br>
-                        Struktur semantik HTML membantu meningkatkan keterbacaan kode, SEO, dan struktur dokumen menjadi lebih terorganisir dibandingkan HTML versi lama.
+                        Video lokal menggunakan tag <code>&lt;video&gt;</code> dapat dikontrol penuh melalui atribut seperti controls, autoplay, dan muted.
+                        Sedangkan video YouTube menggunakan <code>&lt;iframe&gt;</code> yang mengambil konten langsung dari server YouTube dan tidak memerlukan file lokal.
+                        Iframe memudahkan integrasi video eksternal tanpa menyimpan file di server sendiri.
                     </p>
                 </div>
             </article>

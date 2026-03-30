@@ -71,6 +71,19 @@
             }
         }
     </style>
+    <!-- mouse event -->
+    <script>
+        function zoomIn(img) {
+            img.style.transform = "scale(2)";
+            img.style.zIndex = "10";
+            img.style.position = "relative";
+        }
+
+        function zoomOut(img) {
+            img.style.transform = "scale(1)";
+            img.style.zIndex = "1";
+        }
+    </script>
     </head>
     <body>
         <header>
@@ -90,17 +103,10 @@
             </nav>
             <article>
                 <h1 style="text-align: center;">Objek Wisata di Pacitan</h1>
-                <div id="content">
-                    <p style="text-align: justify;">
-                        Pacitan adalah kabupaten di Jawa Timur yang menyimpan potensi alam yang luar biasa mempesona.
-                        Obyek wisata di Pacitan didominasi oleh wisata alam yang memikat, seperti Pantai Klayar yang terkenal dengan fenomena seruling samudra dan pasir putihnya, serta Goa Gong yang terkenal dengan keindahan stalaktit dan stalagmitnya.
-                        Selain wisata alam, Pacitan juga memiliki potensi wisata budaya yang kaya, seperti festival budaya dan seni lokal yang turut meningkatkan daya tarik wisatawan.
-                    </p>
-                    <p>
-                        <b>Kesimpulan Hasil Uji coba:</b><br>
-                        Struktur semantik HTML membantu meningkatkan keterbacaan kode, SEO, dan struktur dokumen menjadi lebih terorganisir dibandingkan HTML versi lama.
-                    </p>
-                </div>
+                <img src="img/Pantai Klayar.jpg" alt="Pantai Klayar" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+                <img src="img/Goa Gong.jpg" alt="Goa Gong" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+                <img src="img/Museum & Galeri SBY-Ani.jpeg" alt="Museum & Galeri SBY-Ani" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+                <img src="img/Festival Rontek.jpg" alt="Festival Rontek" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
             </article>
         </section>
         <footer>
