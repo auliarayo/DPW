@@ -1,6 +1,5 @@
 <?php
 //soal: menghitung gaji bersih obi
-
 $gajiPokok = 3250000;
 $tunjanganJabatan = 1200000;
 

@@ -5,7 +5,7 @@ function writeMsg($nama) {
     echo "selamat datang " . $nama . "<br>";
 }
 
-writeMsg("Ahmad"); //pemanggilan fungsi
+writeMsg("Aulia"); //pemanggilan fungsi
 
 //fungsi dengan mengirim nilai balik
 function tambah(int $angka1, int $angka2) {

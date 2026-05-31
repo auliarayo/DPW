@@ -1,6 +1,5 @@
 <?php
 //soal: menentukan banyaknya masing-masing uang pecahan
-
 $jumlah = 1387500;
 echo "<h2>Pecahan Uang Ani</h2>";
 echo "Total uang: Rp. " . number_format($jumlah, 0, ',', '.') . "<br><br>";

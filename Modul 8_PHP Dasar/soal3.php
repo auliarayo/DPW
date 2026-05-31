@@ -1,6 +1,5 @@
 <?php
 //soal: data nilai akhir kelas menggunakan array
-
 $siswa = array(
     array("no" => 1, "poin" => 75, "nama" => "Adi"),
     array("no" => 2, "poin" => 80, "nama" => "Joni"),
